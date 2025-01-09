@@ -2,7 +2,7 @@ class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
         int n=bills.size();
-        unordered_map<int,int> mpp;
+        unordered_map<int,int> mpp; // can also be solved without map just take 2 variable five and ten
         for(int i=0;i<n;i++)
         {
             if(bills[i]==5){
