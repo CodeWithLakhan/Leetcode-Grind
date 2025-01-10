@@ -14,8 +14,6 @@ public:
                 ans = ans + (k * boxTypes[i][1]);
                 break;
             }
-            cout << ans << endl;
-
             if (k == 0)
                 break;
         }
