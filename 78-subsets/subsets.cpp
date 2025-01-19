@@ -9,7 +9,7 @@ public:
     
     void allsubsets(vector<int>& nums, vector<int>& ans, int i,vector<vector<int>>& allSubVec){
         if(i==nums.size()) {
-            allSubVec.push_back({ans});
+            allSubVec.push_back(ans);
             return;
         }
         //include
