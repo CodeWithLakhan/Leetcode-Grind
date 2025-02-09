@@ -20,7 +20,7 @@ public:
             if(ispalin(temp))
             {
                 parts.push_back(temp);
-                solve( s.substr(i+1 , s.size()) , parts , ans );
+                solve( s.substr(i+1 , s.size()-1) , parts , ans );
                 parts.pop_back();
             }
         }
